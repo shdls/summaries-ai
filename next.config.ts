@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // This tells Next.js 15: "Don't touch this library, just let it run."
+  serverExternalPackages: ["pdf-parse"],
 };
 
 export default nextConfig;
